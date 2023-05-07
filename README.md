@@ -1,6 +1,6 @@
 # ParkEase
 
-Developed in a team of 4 from January 2023 - April 2023 as project @ Toronto Metropolitan University
+Developed in a team of 4 from January 2023 - April 2023 as a course project @ Toronto Metropolitan University
 
 Parking is a key component in the everyday life of citizens of most metropolitan areas including Toronto, Ontario. The citizens of the city continuously face parking problems associated with educational institutions, religious establishments, airports, commercial activities and special events. 
 
