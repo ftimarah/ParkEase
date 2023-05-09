@@ -16,6 +16,11 @@ Hardware
 - Upon accurate validation of a customers license plate (if it is registered in the system) the gate will automatically open
 - In case the camera recognition process fails, the user is prompted to scan their QR Code at the gate (acts as a Digital ID/Confirmation)
 
+Camera
+- Initially a picture of the vehicle is captured
+- Next, image binarization alongside Density-Based Spatial Clustering of Applications with Noise (DBSCAN) algorithm was used to isolate the position of the characters in the image
+- Each plate character can be extracted and is predicted by the CNN model
+
 Software
 - React js and Node js web application that features a Map that displays real-time data of each parking slot
 - Also features a Customer Profile, Booking Form, and Digital Wallet that stores the QR Code (booking confirmation) and transaction history
