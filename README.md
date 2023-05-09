@@ -17,7 +17,7 @@ Hardware
 - In case the camera recognition process fails, the user is prompted to scan their QR Code at the gate (acts as a Digital ID/Confirmation)
 
 Camera
-- Initially a picture of the vehicle is captured
+- Initially a picture of the vehicle and its license plate is captured
 - Next, image binarization alongside Density-Based Spatial Clustering of Applications with Noise (DBSCAN) algorithm was used to isolate the position of the characters in the image
 - Each plate character can be extracted and is predicted by the CNN model
 
